@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- ========== Start welcom bar ======= --> */
+.wellcom {
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.wellcom h6 {
+    padding-top: 7px;
+    color: rgb(67 0 86);
+    transition: 0.5s;
+}
+
+.wellcom h6:hover {
+    color: goldenrod;
+}
+
+.login .regi {
+    margin-left: 10px;
+}
+
+.login span {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(67 0 86);
+    transition: 0.5s;
+}
+
+.login img {
+    color: rgb(67 0 86);
+}
+
+.login span:hover {
+    color: goldenrod;
+}
+
+/* <!-- ========== End welcom bar ======= --> */
+/* <!-- ============ Start Nav Bar =========== --> */
+#navbar {
+    background-color: rgb(67 0 86);
+}
+
+#text a {
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#text ul li:hover .nav-link:hover {
+    color: gold;
+}
+
+.txt-color span {
+    color: gold;
+}
+
+#dropdown-menu {
+    background-color: rgb(67 0 86);
+}
+
+#dropdown-menu li:hover a {
+    color: gold;
+    background-color: rgb(67 0 86);
+}
+
+.dropdown-item {
+    background-color: none;
+}
+
+#search {
+    border: 1px solid rgb(67 0 86);
+    border-radius: 20px;
+    width: 220px;
+}
+
+#btn {
+    border-radius: 20px;
+}
+
+#button {
+    color: white;
+
+}
+
+/* <!-- ============ End Nav Bar =========== --> */
+
+
+/* <!-- ============ Start product =========== --> */
+
+#product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 77vh;
+    background-color: #a9a9a92b;
+}
+
+.pro-text .pro-btn {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(67 0 86);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.pro-text .pro-btn:hover {
+    background-color: goldenrod;
+}
+
+.pro-text h1 {
+    color: rgb(67 0 86);
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.pro-btn p {
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.pro-btn p:hover {
+    color: black;
+}
+
+.pro-text {
+    flex: 1 1 120px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.pro-img {
+    flex: 1 1 60px;
+    margin-top: 20px;
+}
+
+.pro-img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    #product {
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .pro-text h1 {
+        color: rgb(67 0 86);
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .pro-text {
+        flex: none;
+    }
+
+    .pro-text {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .pro-text h1 {
+        font-size: 40px;
+    }
+
+    .pro-text {
+
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+}
+
+/* <!-- ============ End product =========== --> */
+
+
+/* <!-- ============  Start Product Card =========== --> */
+
+.pro-card {
+    margin-top: 80px;
+}
+
+.pro-card h1 {
+    text-align: center;
+    color: goldenrod;
+}
+
+.pro-card .rulor {
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: goldenrod;
+
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-star {
+    color: goldenrod;
+    margin-left: 10px;
+}
+
+.price {
+    margin-top: 25px;
+}
+
+.price .shop {
+    float: right;
+}
+
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.dollor-img img {
+    width: 100%;
+    background-color: #a9a9a92b;
+}
+
+.be-txt {
+    position: absolute;
+    transform: translate(15%, -150%);
+
+}
+
+.be-txt h2 {
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.be-txt h5 {
+    letter-spacing: 2px;
+    font-size: 21px;
+    border-bottom: 2px solid black;
+    width: 200px;
+}
+
+.be-txt h6 {
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.best-btn {
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(67 0 86);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.best-btn:hover {
+    background-color: goldenrod;
+}
+
+.best-btn p {
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.best-btn p:hover {
+    color: black;
+}
+
+
+/* <!-- ============  End Product Card =========== --> */
+
+/* <!-- ========== Start Discound ============= --> */
+#discound {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75vh;
+    background-color: #a9a9a92b;
+
+}
+
+#discound .dis-text {
+    margin-top: 70px;
+    margin-left: 30px;
+    flex: 100px;
+}
+
+.dis-text h1 {
+    color: rgb(67 0 86);
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.dis-img img {
+    margin-top: 50px;
+}
+
+.dis-text .dis-btn {
+    width: 130px;
+    height: 40px;
+    background-color: rgb(67 0 86);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.dis-text .dis-btn:hover {
+    background-color: goldenrod;
+}
+
+.dis-btn p {
+    padding-top: 7px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.dis-btn p:hover {
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    #discound {
+        flex-direction: column;
+        height: 140vh;
+    }
+
+    .dis-text h1 {
+        color: rgb(67 0 86);
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .dis-text {
+        flex: none;
+    }
+
+    .dis-text {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .dis-text h1 {
+        font-size: 40px;
+    }
+
+    .dis-text {
+
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+}
+
+
+/* <!-- ========== End Discound ============= --> */
+#elec-card {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/* <!-- =========== start  gadget ========= --> */
+.get-text {
+    position: absolute;
+    transform: translate(7%, -340%);
+}
+
+.get-text h4 {
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1px;
+}
+
+.get-text h6 {
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 1px;
+}
+
+.get-img img {
+    width: 100%;
+}
+
+#gadget {
+    margin-bottom: 50px;
+}
+
+/* <!-- =========== End  gadget ========= --> */
+#last-card {
+    margin-bottom: 80px;
+}
+
+/* <!-- <!=========== Start offer ==============> --> */
+
+.offer-shop {
+    font-size: 40px;
+}
+
+#offer {
+    margin-bottom: 100px;
+}
+
+/* <!-- <!=========== End offer ==============> --> */
+
+/* <!-- ========== Start subscribe ========= --> */
+.sub-text {
+    margin-bottom: 35px;
+}
+
+.scribe {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+.coll-text h3::before {
+    content: " ";
+    position: absolute;
+    width: 5px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    transform: translate(-15px);
+
+}
+
+.btn-sub {
+    background-color: brown;
+    color: white;
+}
+
+.ubscribe {
+    margin-bottom: 80px;
+}
+
+/* <!-- ========== End subscribe ========= --> */
+
+/* <!-- ============ Start footer ======= --> */
+
+#footer {
+    background-color: rgb(67 0 86);
+}
+
+.foot-txt {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.foot-txt h4 {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.footer-link ul li {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+
+}
+
+.footer-link ul li:hover {
+    color: goldenrod;
+}
+
+.footer-link ul {
+    padding-left: 0;
+}
+
+.child-text p {
+    color: white;
+    font-size: 17px;
+}
+
+.socia a i {
+    color: gray;
+    font-size: 25px;
+    margin-right: 18px;
+    transition: 0.3s;
+}
+
+.socia a:hover i {
+    transform: scale(1.20);
+    color: goldenrod;
+}
+
+.copy {
+    background-color: rgb(67 0 86);
+}
+
+.copyright {
+    font-size: 17px;
+    float: left;
+    color: white;
+}
+
+.credits {
+    float: right;
+    font-size: 17px;
+    color: white;
+}
+
+#footer .credits a {
+    color: #ffc800;
+}
+
+.copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy {
+    margin-bottom: 40px;
+}
+.back {
+    position: fixed;
+    display: block;
+    top: 320px;
+    left: 92%;
+    transform: translate(75%, 300%);
+}
+.back img{
+    transition: 0.5s;
+}
+.back img:hover{
+    transform: scale(1.15);
+}
+
+/* <!-- ============ End footer ======= --> */
